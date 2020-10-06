@@ -1,5 +1,11 @@
 {
     "name": "user/lara_auto",
     "description": "\"autoload classes\"",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "./src/Demo"
+        }
+    }
+
 }

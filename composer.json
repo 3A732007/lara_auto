@@ -1,7 +1,9 @@
 {
     "name": "user/lara_auto",
     "description": "\"autoload classes\"",
-    "require": {},
+    "require": {
+        "monolog/monolog": "^2.1"
+    },
     "autoload": {
         "psr-4": {
             "Demo\\": "./src/Demo"

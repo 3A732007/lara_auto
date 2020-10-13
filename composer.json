@@ -2,7 +2,8 @@
     "name": "user/lara_auto",
     "description": "\"autoload classes\"",
     "require": {
-        "monolog/monolog": "^2.1"
+        "monolog/monolog": "^2.1",
+        "nesbot/carbon":"2.39.0"
     },
     "autoload": {
         "psr-4": {
